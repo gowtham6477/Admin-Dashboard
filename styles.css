@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  a{
+    text-decoration:none;
+    color: #fffcfc;
+  }
+.mdi{
+    color:#fffcfc;
+}
 .container{
     display:grid;
     grid-template-columns: repeat(6,150px);
@@ -42,10 +53,10 @@
     font-size: 1.5rem;
     padding: 12px;
 }
-.last-row{
-    column-gap: 20px;
-  row-gap: 5em;
-  padding-top: 300px;
-    padding-bottom: 100px ;
-
+.last-row1{
+        padding-bottom: 350px;
+}
+.last-row2{
+        margin-top:185px;
+        padding-bottom: 350px;
 }
