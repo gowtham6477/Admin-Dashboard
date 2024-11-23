@@ -6,6 +6,9 @@ body {
     text-decoration:none;
     color: #fffcfc;
   }
+  .mdi-magnify{
+    color: #000;
+  }
 .mdi{
     color:#fffcfc;
 }
@@ -21,6 +24,22 @@ body {
     grid-column-end:3;
     grid-row: 1/7;
     background-color: rgb(50, 210, 221);
+}
+.block{
+    display: flex;  
+    flex-direction: row;  
+    align-items: center;
+}
+.mdi-magnify{
+    color: #000000;
+    size: 20px;
+}
+input{
+    border:50px;
+    width:500px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(196, 196, 196);
 }
 .header{
     grid-column-start: 3;
